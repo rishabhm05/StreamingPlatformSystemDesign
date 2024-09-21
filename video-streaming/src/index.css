@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-button{
+  @apply bg-green-600 text-white p-2 border-black rounded-md flex items-center
+}
+.input{
+  @apply border-2 border-black p-2 rounded-md 
+}
